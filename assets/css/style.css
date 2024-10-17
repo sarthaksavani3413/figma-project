@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header-start */
+a{
+    color: black;
+    text-decoration: none;
+    padding: 0;
+    margin:0;
+}
+/* header-end */
+/* banner-start */
+.banner{
+    background-image: url(../img/1694066782705\ 1.png);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding: 550px 0 150px;
+    background-size: cover;
+}
+.banner::after{
+    position: absolute;
+    content: '';
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: #3c48588f;
+    top: 0;
+    left: 0;
+    z-index:-1;
+}
+/* banner-end */
+/* footer-start */
+ul li {
+    list-style: none;
+}
+a {
+    color: #ADB5BD;
+}
+/* footer-end */

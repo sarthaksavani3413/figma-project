@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VCare</title>
+    <!-- font css -->
+    <link rel="stylesheet" href="assets/css/font.css">
+    <!-- fav-icon -->
+    <link rel="icon" href="assets/img/Group 447.png">
+    <!-- icon css-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- boostrap-css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- custom-css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container align-items-center">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/Group 234.png" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="../index.html" style="font-size: 18px;font-weight: 600;">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="../figma 1/index.html"
+                            style="font-size: 18px; font-weight: 600;">DOCTOR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active  mx-3" href="../figma 2/index.html"
+                            style="font-size: 18px; font-weight: 600;color: #396CF0;">APPOINTMENT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="../figma 3/index.html"
+                            style="font-size: 18px; font-weight: 600;">PHARMACY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="../figma 4/index.html"
+                            style="font-size: 18px; font-weight: 600;">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="icons d-flex">
+                <a href="#">
+                    <i class="fa-solid fa-gear me-3 rounded-circle fs-5 text-white d-flex justify-content-center align-items-center"
+                        style="height:36px; width: 36px;background: #396CF0;"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-magnifying-glass rounded-circle fs-5 text-white d-flex justify-content-center align-items-center"
+                        style="height:36px; width: 36px;background: #396CF0;"></i>
+                </a>
+                <a href="#">
+                    <img src="assets/img/Ellipse 3.png" class="rounded-circle ms-3" alt=""
+                        style="height:36px; width: 36px;">
+                </a>
+                <a href="#offcanvasExample" data-bs-toggle="offcanvas">
+                    <i class="fa-solid fa-bars d-lg-none rounded-circle fs-5 text-white d-flex justify-content-center align-items-center ms-3"
+                        style="height:36px; width: 36px;background: #396CF0;"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="assets/img/" alt="">
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active mx-3" href="#"
+                    style="font-size: 18px;color: #396CF0;font-weight: 600;">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3" href="#" style="font-size: 18px; font-weight: 600;">DOCTOR</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3" href="#" style="font-size: 18px; font-weight: 600;">APPOINTMENT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3" href="#" style="font-size: 18px; font-weight: 600;">PHARMACY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3" href="#" style="font-size: 18px; font-weight: 600;">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+    <!-- header end -->
+    <!-- banner-start -->
+    <section class="banner">
+        <div class="container">
+            <div class="row text-white text-center justify-content-center">
+                <h1 style="font-size: 28px;font-weight: 600;line-height: 35px;">Book an appointment</h1>
+                <div class="col-12 col-lg-6">
+                    <p style="font-size: 20px;font-weight: 600;">Great doctor if you need your family member to get
+                        effective immediate assistance, emergency treatment or a simple consultation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner-end -->
+    <!-- appointment-start -->
+    <section>
+        <div class="container">
+            <div class="row" style="padding-top: 85px;">
+                <div class="col-3"></div>
+                <div class="col-12 col-lg-6 px-0">
+                    <button class="mb-3">Online Appointment</button>
+                    <button style="border: none;color: #396CF0;background: #396CF01A;">Clinic Appointment</button>
+                    <h6 class="pt-5 pb-2">Patient Name<span>*</span></h6>
+                    <input type="text" placeholder="Patient Name"
+                        style="color: #ADB5BD;margin-bottom: 40px;line-height: 20px;"
+                        class="px-4 py-3 w-100 rounded-3 border border-secondary-subtle">
+                    <div class="d-flex pe-3">
+                        <div class="col-12 col-lg-6 col-md-6 me-3">
+                            <h6 class="pb-2">Department<span>*</span></h6>
+                            <input type="text" placeholder="Departments"
+                                style="color: #ADB5BD;margin-bottom: 40px;line-height: 20px;"
+                                class="ps-4 py-3 w-100 rounded-4 border border-secondary-subtle">
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6">
+                            <h6 class="pb-2">Doctor<span>*</span></h6>
+                            <input type="text" placeholder="Doctor"
+                                style="color: #ADB5BD;margin-bottom: 40px;line-height: 20px;"
+                                class="ps-4 py-3 w-100 rounded-4 border border-secondary-subtle">
+                        </div>
+                    </div>
+                    <div class="d-flex pe-3">
+                        <div class="col-12 col-lg-6 col-md-6 me-3">
+                            <h6 class="pb-2">Patient Name<span>*</span></h6>
+                            <input type="text" placeholder="Patient Name"
+                                style="color: #ADB5BD;margin-bottom: 40px;line-height: 20px;"
+                                class="ps-4 py-3 w-100 rounded-4 border border-secondary-subtle">
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6">
+                            <h6 class="pb-2">Your Phone<span>*</span></h6>
+                            <input type="text" placeholder="Your Phone"
+                                style="color: #ADB5BD;margin-bottom: 40px;line-height: 20px;"
+                                class="ps-4 py-3 w-100 rounded-4 border border-secondary-subtle">
+                        </div>
+                    </div>
+                    <div class="d-flex pe-3">
+                        <div class="col-12 col-lg-6 col-md-6 me-3">
+                            <h6 class="pb-2">Appointment Date<span>*</span></h6>
+                            <input type="text" placeholder="Appointment Date"
+                                style="color: #ADB5BD;line-height: 20px;margin-bottom: 40px;"
+                                class="ps-4 py-3 w-100 rounded-4 border border-secondary-subtle">
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6">
+                            <h6 class="pb-2">Appointment Time<span>*</span></h6>
+                            <input type="text" placeholder="Appointment Time"
+                                style="color: #ADB5BD;line-height: 20px;margin-bottom: 40px;"
+                                class="ps-4 py-3 w-100 rounded-4 border border-secondary-subtle">
+                        </div>
+                    </div>
+                    <h6>Comments</h6>
+                    <textarea cols="90" rows="7" placeholder="Your Message" style="margin-bottom: 40px;"
+                        class="ps-4 py-3 w-100 rounded-4"></textarea>
+                    <button class="w-100 rounded-4"
+                        style="color: #396CF0;border:1px solid #396CF0;font-weight: 700;">Book an
+                        Appointment</button>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </section>
+    <!-- appointment-end -->
+    <!-- doctor-time start -->
+    <section>
+        <div class="container">
+            <div class="row text-center" style="padding: 100px 0px;">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h4 style="font-size: 28px;font-weight: 600;padding-bottom: 40px;">Doctors Time Table</h4>
+                    <p style="line-height: 20px;font-weight: 400;color: #8492A6;">Great doctor if
+                        you need your family member to get
+                        effective immediate assistance,emergency treatment or a simple consultation.</p>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </section>
+    <!-- table start -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div style="overflow: auto;">
+                    <table width="1495">
+                        <tr class="mb-5">
+                            <th width="18%" style="font-size: 28px;">Time Table</th>
+                            <th width="18%" style="font-size: 28px;">09:00 AM</th>
+                            <th width="18%" style="font-size: 28px;">11:00 AM</th>
+                            <th width="18%" style="font-size: 28px;">02:00 PM</th>
+                            <th width="18%" style="font-size: 28px;">04:00 PM </th>
+                            <th width="18%" style="font-size: 28px;">06:00 PM</th>
+                        </tr>
+                        <tr>
+                            <th style="font-size: 28px;">Mon</th>
+                            <td>
+                                <div class="d-flex mt-4">
+                                    <img src="assets/img/4cccfe37fff6668e44727ffdbb77b59d 2.png" alt=""
+                                        class="img-fluid">
+
+                                    <div class="ps-2">
+                                        <h5 style="font-size: 16px; padding-right: 80px; " class="fw-bold ">Bella
+                                            Castillo
+                                        </h5>
+                                        <p class="mb-0 mt-5 text-secondary fw-semibold">Radiologist</p>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="px-2 py-2 border-0 fw-semibold my-3"
+                                        style="color: #396CF0; background-color: #e9effffd; border-radius: 10px;">09:00
+                                        -
+                                        10:00 AM</button>
+                                </a>
+                            </td>
+                            <td></td>
+                            <td>
+                                <div class="d-flex mt-4">
+                                    <img src="assets/img//1000007032_x4_fast 2.png" alt="" class="img-fluid">
+
+                                    <div class="ps-2">
+                                        <h5 style="font-size: 16px; padding-right: 80px; " class="fw-bold ">Calvin Carlo
+                                        </h5>
+                                        <p class="mb-0 mt-5 text-secondary fw-semibold">Eye Care</p>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="px-2 py-2 border-0 fw-semibold my-3"
+                                        style="color: #396CF0; background-color: #e9effffd; border-radius: 10px;">02:00
+                                        -
+                                        4:00 PM</button>
+                                </a>
+                            </td>
+                            <td></td>
+                            <td>
+                                <div class="d-flex mt-4">
+                                    <img src="assets/img/af8c03e021aa5044f0c4709fd0ce9602 1.png" alt=""
+                                        class="img-fluid">
+                                    <div class="ps-2">
+                                        <h5 style="font-size: 16px; padding-right: 80px; " class="fw-bold ">Leo Davis
+                                        </h5>
+                                        <p class="mb-0 mt-5 text-secondary fw-semibold">Cardiologists</p>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="px-2 py-2 border-0 fw-semibold my-3"
+                                        style="color: #396CF0; background-color: #e9effffd; border-radius: 10px;">07:00
+                                        -
+                                        08:00 PM</button>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="font-size: 28px;">Tues</th>
+                            <td></td>
+                            <td>
+                                <div class="d-flex mt-4">
+                                    <img src="assets/img/1000007020_x4_fast 2.png" alt="" class="img-fluid">
+
+                                    <div class="ps-2">
+                                        <h5 style="font-size: 16px; padding-right: 80px; " class="fw-bold ">Alice
+                                            Williams
+                                        </h5>
+                                        <p class="mb-0 mt-5 text-secondary fw-semibold">Dentist</p>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="px-2 py-2 border-0 fw-semibold my-3"
+                                        style="color: #396CF0; background-color: #e9effffd; border-radius: 10px;">11:00
+                                        -
+                                        12:00 AM</button>
+                                </a>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th style="font-size: 28px;">Wed</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <div class="d-flex mt-4">
+                                    <img src="assets/img/28a6f53b54378bb1326f9f4e0b20908d 2.png" alt=""
+                                        class="img-fluid">
+
+                                    <div class="ps-2">
+                                        <h5 style="font-size: 16px; padding-right: 80px; " class="fw-bold ">Sophia
+                                            Taylor
+                                        </h5>
+                                        <p class="mb-0 mt-5 text-secondary fw-semibold">Neurologists</p>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="px-2 py-2 border-0 fw-semibold my-3"
+                                        style="color: #396CF0; background-color: #e9effffd; border-radius: 10px;">04:00
+                                        -
+                                        06:00 PM</button>
+                                </a>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th style="font-size: 28px;">Thurs</th>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <div class="d-flex mt-4">
+                                    <img src="assets/img/1000007028_x4_fast 2.png" alt="" class="img-fluid">
+
+                                    <div class="ps-2">
+                                        <h5 style="font-size: 16px; padding-right: 80px; " class="fw-bold ">Tony Kovar
+                                        </h5>
+                                        <p class="mb-0 mt-5 text-secondary fw-semibold">Orthopedic</p>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="px-2 py-2 border-0 fw-semibold my-3"
+                                        style="color: #396CF0; background-color: #e9effffd; border-radius: 10px;">03:00
+                                        -
+                                        04:00 PM</button>
+                                </a>
+                            </td>
+                            <td></td>
+                            <td>
+                                <div class="d-flex mt-4">
+                                    <img src="assets/img/897b3f34dd3e391054d7bdbaafabdbdc 2.png" alt=""
+                                        class="img-fluid">
+
+                                    <div class="ps-2">
+                                        <h5 style="font-size: 16px; padding-right: 80px; " class="fw-bold ">Jessica
+                                            Williams</h5>
+                                        <p class="mb-0 mt-5 text-secondary fw-semibold">Dentist</p>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="px-2 py-2 border-0 fw-semibold my-3"
+                                        style="color: #396CF0; background-color: #e9effffd; border-radius: 10px;">06:00
+                                        -
+                                        08:00 PM</button>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th style="font-size: 28px;">Fri</th>
+                            <td>
+                                <div class="d-flex mt-4">
+                                    <img src="assets/img/1000007022_x4_fast (1) 1.png" alt="" class="img-fluid">
+
+                                    <div class="ps-2">
+                                        <h5 style="font-size: 16px; padding-right: 80px; " class="fw-bold ">Alia Reddy
+                                        </h5>
+                                        <p class="mb-0 mt-5 text-secondary fw-semibold">Psychot-herapist</p>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="px-2 py-2 border-0 fw-semibold my-3"
+                                        style="color: #396CF0; background-color: #e9effffd; border-radius: 10px;">09:00
+                                        -
+                                        12:00 AM</button>
+                                </a>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <div class="d-flex mt-4">
+                                    <img src="assets/img/1000007024_x4_fast 2.png" alt="" class="img-fluid">
+
+                                    <div class="ps-2">
+                                        <h5 style="font-size: 16px; padding-right: 80px; " class="fw-bold ">Hazel Kelly
+                                        </h5>
+                                        <p class="mb-0 mt-5 text-secondary fw-semibold">Dermato - logist</p>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="px-2 py-2 border-0 fw-semibold my-3"
+                                        style="color: #396CF0; background-color: #e9effffd; border-radius: 10px;">05:00
+                                        -
+                                        06:00 PM</button>
+                                </a>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th style="font-size: 28px;">Sat</th>
+                            <td></td>
+                            <td>
+                                <div class="d-flex mt-4">
+                                    <img src="assets/img/1000007030_x4_fast 2.png" alt="" class="img-fluid">
+
+                                    <div class="ps-2">
+                                        <h5 style="font-size: 16px; padding-right: 80px; " class="fw-bold ">Ava Johnson
+                                        </h5>
+                                        <p class="mb-0 mt-5 text-secondary fw-semibold">Dermatologist</p>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="px-2 py-2 border-0 fw-semibold my-3"
+                                        style="color: #396CF0; background-color: #e9effffd; border-radius: 10px;">12:00
+                                        -
+                                        02:00 PM</button>
+                                </a>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <div class="d-flex mt-4">
+                                    <img src="assets/img/1000007034_x4_fast 2.png" alt="" class="img-fluid">
+
+                                    <div class="ps-2">
+                                        <h5 style="font-size: 16px; padding-right: 80px; " class="fw-bold ">James
+                                            Thomas </h5>
+                                        <p class="mb-0 mt-5 text-secondary fw-semibold">Dentist</p>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button class="px-2 py-2 border-0 fw-semibold my-3"
+                                        style="color: #396CF0; background-color: #e9effffd; border-radius: 10px;">07:00
+                                        -
+                                        08:00 PM</button>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- table end -->
+    <!-- doctor-time end -->
+    <!-- footer-start -->
+    <footer style="background: #202942;">
+        <div class="container">
+            <div class="row row-cols-12 row-cols-lg-4 row-cols-md-2 text-white pt-5">
+                <div class="p-2">
+                    <a href="#">
+                        <img src="assets/img/Group 233.png" class="mb-4" alt="">
+                    </a>
+                    <p style="color: #ADB5BD;line-height: 18px;font-weight: 400;padding-right: 10px;">Great doctor if
+                        you need your family
+                        member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
+                </div>
+                <div class="p-2">
+                    <h2 class="mb-3 pb-4" style="font-size: 20px;font-weight: 600;line-height: 24px;">Company</h2>
+                    <ul class="ps-0">
+                        <li class="mb-3">
+                            <a href="#">About Us</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Services</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Team</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Project</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Log In</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="p-2">
+                    <h2 class="mb-3 pb-4" style="font-size: 20px;font-weight: 600;line-height: 24px;">Departments</h2>
+                    <ul class="ps-0">
+                        <li class="mb-3">
+                            <a href="#">Eye Care</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Psychotherapy</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Dental Care</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Orthopedic</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Cardiology</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Gynecology</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Neurology</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="p-2">
+                    <h2 class="mb-3 pb-4" style="font-size: 20px;font-weight: 600;line-height: 24px;">Departments</h2>
+                    <ul class="ps-0">
+                        <li class="mb-3">
+                            <i class="fa-regular fa-envelope me-2" style="color: #ADB5BD;"></i>
+                            <a href="#">lifecare@gmail.com</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-phone me-2" style="color: #ADB5BD;"></i>
+                            <a href="#">+152 534-468-854</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-phone me-2" style="color: #ADB5BD;"></i>
+                            <a href="#">+152 534-468-854</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-location-dot me-2" style="color: #ADB5BD;"></i>
+                            <a href="#">View on Google map</a>
+                        </li>
+                    </ul>
+                    <div class="icon mt-3">
+                        <i class="fa-brands fa-facebook-f me-4" style="color: #ADB5BD;"></i>
+                        <i class="fa-brands fa-instagram me-4" style="color: #ADB5BD;"></i>
+                        <i class="fa-brands fa-twitter me-4" style="color: #ADB5BD;"></i>
+                        <i class="fa-brands fa-linkedin-in me-4" style="color: #ADB5BD;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="footer-sub">
+                    <ul class="d-flex justify-content-end pt-3" style="border-top:1px solid grey ;">
+                        <li class="mx-4">
+                            <a href="#">Terms</a>
+                        </li>
+                        <li class="mx-4">
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li class="mx-4">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="mx-4">
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-end -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>

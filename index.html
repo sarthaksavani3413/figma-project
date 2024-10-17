@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VCare</title>
+    <!-- font css -->
+    <link rel="stylesheet" href="assets/css/font.css">
+    <!-- fav-icon -->
+    <link rel="icon" href="assets/img/Group 447.png">
+    <!-- icon css-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- boostrap-css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- custom-css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container align-items-center">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/Group 234.png" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3" href="#"
+                            style="font-size: 18px;color: #396CF0;font-weight: 600;">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="figma 1/index.html"
+                            style="font-size: 18px; font-weight: 600;">DOCTOR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="figma 2/index.html"
+                            style="font-size: 18px; font-weight: 600;">APPOINTMENT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="figma 3/index.html"
+                            style="font-size: 18px; font-weight: 600;">PHARMACY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="figma 4/index.html"
+                            style="font-size: 18px; font-weight: 600;">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="icons d-flex">
+                <a href="#">
+                    <i class="fa-solid fa-gear me-3 rounded-circle fs-5 text-white d-flex justify-content-center align-items-center"
+                        style="height:36px; width: 36px;background: #396CF0;"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-magnifying-glass rounded-circle fs-5 text-white d-flex justify-content-center align-items-center"
+                        style="height:36px; width: 36px;background: #396CF0;"></i>
+                </a>
+                <a href="#">
+                    <img src="assets/img/Ellipse 3.png" class="rounded-circle ms-3" alt=""
+                        style="height:36px; width: 36px;">
+                </a>
+                <a href="#offcanvasExample" data-bs-toggle="offcanvas">
+                    <i class="fa-solid fa-bars d-lg-none rounded-circle fs-5 text-white d-flex justify-content-center align-items-center ms-3"
+                        style="height:36px; width: 36px;background: #396CF0;"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="assets/img/" alt="">
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active mx-3" href="#"
+                    style="font-size: 18px;color: #396CF0;font-weight: 600;">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3" href="#" style="font-size: 18px; font-weight: 600;">DOCTOR</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3" href="#" style="font-size: 18px; font-weight: 600;">APPOINTMENT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3" href="#" style="font-size: 18px; font-weight: 600;">PHARMACY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mx-3" href="#" style="font-size: 18px; font-weight: 600;">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+    <!-- header end -->
+    <!-- banner-start -->
+    <section class="banner">
+        <div class="container">
+            <div class="row text-white text-center justify-content-center">
+                <h1 style="font-size: 52px;font-weight: 700;">Booking Your Appointment</h1>
+                <div class="col-6">
+                    <p style="font-size: 20px;font-weight: 600;">Great doctor if you need your family member to get
+                        effective immediate assistance, emergency treatment or a simple consultation.</p>
+                </div>
+                <div class="col-9">
+                    <form class="d-flex flex-wrap my-3 p-3 rounded-3 position-relative" style="background: #FFFFFF99;">
+                        <div class="col-12 col-lg-4 position-relative me-lg-3">
+                            <input type="text" placeholder="Location"
+                                class="w-100 ps-5 border-0 rounded-3 fs-6 px-5 py-3 mb-2 "
+                                style="width: 340px;height: 55px;">
+                            <i class="fa-solid fa-location-dot position-absolute fs-5 mb-2"
+                                style="top: 40%;left: 2%;color: rgba(128, 128, 128, 0.472);"></i>
+                        </div>
+                        <div class="col-12 col-lg-5 me-3 position-relative me-lg-3">
+                            <input type="text" placeholder="Doctor Name"
+                                class="w-100 ps-5 border-0 rounded-3 fs-6 px-5 py-3 mb-2">
+                            <i class="fa-solid fa-stethoscope position-absolute fs-5 mb-2"
+                                style="top: 40%;left: 2%;color: rgba(128, 128, 128, 0.472);"></i>
+                        </div>
+                        <div class="col-12 col-lg-2">
+                            <button class="px-3 border-0 rounded-3 text-white fs-6 px-5 py-3"
+                                style="background-color: #396CF0;">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner-end -->
+    <!-- suggestion start -->
+    <section style="padding: 75px 0px;background: #D9D9D966;">
+        <div class="container">
+            <div class="row row-cols-12 row-cols-md-2 justify-content-center row-cols-lg-3">
+                <div class="p-2 d-flex pe-5">
+                    <div class="col-2">
+                        <img src="assets/img/briefcase 1.png" alt="">
+                    </div>
+                    <div class="col-10 pe-5">
+                        <h4 style="font-weight: 700;margin: 0;">Our Mission</h4>
+                        <p class="text-secondary pe-5 mb-0 mt-2" style="font-weight: 500;font-size: 16px;">A doctor's
+                            mission is to provide medical care, offer diagnoses,and treat illnesses to improve the
+                            health and well-being of their patients.</p>
+                    </div>
+                </div>
+                <div class="p-2 d-flex pe-5">
+                    <div class="col-2">
+                        <img src="assets/img/airplay 1.png" alt="">
+                    </div>
+                    <div class="col-10 pe-5">
+                        <h4 style="font-weight: 700;margin: 0;">Our Vision</h4>
+                        <p class="text-secondary pe-5 mb-0 mt-2" style="font-weight: 500;font-size: 16px;">In his
+                            view,health advancesand innovations emphasizedisease prevention andholistic healing, leading
+                            togood looks and qualityof life for all.</p>
+                    </div>
+                </div>
+                <div class="p-2 d-flex pe-5">
+                    <div class="col-2">
+                        <img src="assets/img/flip 1.png" alt="">
+                    </div>
+                    <div class="col-10 pe-5">
+                        <h4 style="font-weight: 700;margin: 0;">Who We Are ?</h4>
+                        <p class="text-secondary pe-5 mb-0 mt-2" style="font-weight: 500;font-size: 16px;">Doctors are
+                            highly trained medicalprofessionals dedicated to thediagnosis, treatment, and care
+                            ofindividuals with various healthconditions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- suggestion end-->
+    <!-- about-start -->
+    <section style="padding: 50px 0px;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                    <img src="assets/img/1694075887525 1.png" class="img-fluid " alt="">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <button class="px-3 border-0 rounded-5 my-4"
+                        style="color: #396CF0;font-weight: 600;font-size: 14px;background: #396CF01A;">About Life
+                        Care</button>
+                    <div class="col-10">
+                        <h1 class="fs-3" style="font-weight: 600;line-height: 35px;">Good Services And Better Health By
+                            Our Specialists</h1>
+                    </div>
+                    <div class="col-9 text-secondary">
+                        <p class="mb-0" style="font-weight: 400;line-height: 20px;font-size: 16px;padding: 25px 0px;">
+                            Great doctor if you need your family member to get effective immediate assistance, emergency
+                            treatment or a simple consultation.</p>
+                        <p class="mb-0" style="font-weight: 400;line-height: 20px;font-size: 16px;padding: 25px 0px;">
+                            Our specialists are dedicated to providing exceptional healthcare services that prioritize
+                            the well-being and health of our patients.</p>
+                        <p class="mb-0" style="font-weight: 400;line-height: 20px;font-size: 16px;padding: 25px 0px;">We
+                            strive for excellence in every aspect of ourpractice, fromaccurate diagnosis and effective
+                            treatment to compassionate care and patient support.</p>
+                        <p class="mb-0" style="font-weight: 400;line-height: 20px;font-size: 16px;padding: 25px 0px;">
+                            Our missionis to ensure thatindividuals receive the highest quality medical services, which
+                            ultimately leads to better
+                            health and improved quality of life for our patients.</p>
+                    </div>
+                    <button class="px-4 py-2 my-4 rounded-3"
+                        style="border: 1px solid #000000;font-size: 18px;font-weight: 600;">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about-end -->
+    <!-- department-start -->
+    <section>
+        <div class="container">
+            <div class="row d-flex justify-content-center text-center">
+                <button class="border-0 rounded-5 mb-4"
+                    style="color: #396CF0;font-weight: 600;font-size: 14px;background: #396CF01A;width: 100px;height: 30px;">Departments</button>
+                <h1 class="mb-4" style="font-size: 28px;font-weight: 600;line-height: 34px;">Our Medical Services</h1>
+                <div class="col-6">
+                    <p class="pb-5 mb-5">Great doctor if you need your family member to get effective immediate
+                        assistance,emergency
+                        treatment or a simple consultation.</p>
+                </div>
+            </div>
+            <div class="row row-cols-12 row-cols-md-2 row-cols-lg-4">
+                <div class="p-2 mb-5">
+                    <img src="assets/img/Group 524.png" alt="">
+                    <h3 style="font-size: 20px;font-weight: 500;line-height: 25px;padding: 25px 0;margin: 0;">Eye Care
+                    </h3>
+                    <p class="text-secondary pe-5 mb-0" style="font-weight: 400;font-size: 16px;line-height: 20px;">Eye
+                        care is the
+                        crucial practice of maintaining and preserving the health and function of our eyes. Regular eye
+                        examinations,...</p>
+                    <button
+                        style="font-weight: 400;border: none;background-color: transparent;color: #396CF0;padding-top: 25px;">Read
+                        More</button>
+                </div>
+                <div class="p-2 mb-5">
+                    <img src="assets/img/Group 525.png" alt="">
+                    <h3 style="font-size: 20px;font-weight: 500;line-height: 25px;padding: 25px 0;margin: 0;">
+                        Psychotherapy
+                    </h3>
+                    <p class="text-secondary pe-5 mb-0" style="font-weight: 400;font-size: 16px;line-height: 20px;">
+                        Psychotherapy, often referred toas
+                        talk therapy, is a therapeutic approach that involves conversations between a...</p>
+                    <button
+                        style="font-weight: 400;border: none;background-color: transparent;color: #396CF0;padding-top: 45px;">Read
+                        More</button>
+                </div>
+                <div class="p-2 mb-5">
+                    <img src="assets/img/Group 526.png" alt="">
+                    <h3 style="font-size: 20px;font-weight: 500;line-height: 25px;padding: 25px 0;margin: 0;">Primary
+                        Care
+                    </h3>
+                    <p class="text-secondary pe-5 mb-0" style="font-weight: 400;font-size: 16px;line-height: 20px;">
+                        Primary care is the foundation of healthcare, providing individuals with a first point of
+                        contact for their medical needs. Primary...</p>
+                    <button
+                        style="font-weight: 400;border: none;background-color: transparent;color: #396CF0;padding-top: 25px;">Read
+                        More</button>
+                </div>
+                <div class="p-2 mb-5">
+                    <img src="assets/img/Group 527.png" alt="">
+                    <h3 style="font-size: 20px;font-weight: 500;line-height: 25px;padding: 25px 0;margin: 0;">Dental
+                        Care
+                    </h3>
+                    <p class="text-secondary pe-5 mb-0" style="font-weight: 400;font-size: 16px;line-height: 20px;">
+                        Dental care is essential for maintaining oral health and overall well-being. It encompasses a
+                        range of preventive and...</p>
+                    <button
+                        style="font-weight: 400;border: none;background-color: transparent;color: #396CF0;padding-top: 45px;">Read
+                        More</button>
+                </div>
+                <div class="p-2 mt-5">
+                    <img src="assets/img/Group 532.png" alt="">
+                    <h3 style="font-size: 20px;font-weight: 500;line-height: 25px;padding: 25px 0;margin: 0;">Orthopedic
+                    </h3>
+                    <p class="text-secondary pe-5 mb-0" style="font-weight: 400;font-size: 16px;line-height: 20px;">
+                        Orthopedics is a specialized field of medicine dedicated to the diagnosis, treatment, and
+                        prevention of musculoskeletal...</p>
+                    <button
+                        style="font-weight: 400;border: none;background-color: transparent;color: #396CF0;padding-top: 25px;">Read
+                        More</button>
+                </div>
+                <div class="p-2 mt-5">
+                    <img src="assets/img/Group 528.png" alt="">
+                    <h3 style="font-size: 20px;font-weight: 500;line-height: 25px;padding: 25px 0;margin: 0;">Cardiology
+                    </h3>
+                    <p class="text-secondary pe-5 mb-0" style="font-weight: 400;font-size: 16px;line-height: 20px;">
+                        Cardiology is the medical specialty that concentrates on the heart and cardiovascular system.
+                        Cardiologists are healthcare...</p>
+                    <button
+                        style="font-weight: 400;border: none;background-color: transparent;color: #396CF0;padding-top: 25px;">Read
+                        More</button>
+                </div>
+                <div class="p-2 mt-5">
+                    <img src="assets/img/Group 529.png" alt="">
+                    <h3 style="font-size: 20px;font-weight: 500;line-height: 25px;padding: 25px 0;margin: 0;">
+                        Gynecology
+                    </h3>
+                    <p class="text-secondary pe-5 mb-0" style="font-weight: 400;font-size: 16px;line-height: 20px;">
+                        Gynecology is the medical field focused on the health and well- being of the female reproductive
+                        system...</p>
+                    <button
+                        style="font-weight: 400;border: none;background-color: transparent;color: #396CF0;padding-top: 45px;">Read
+                        More</button>
+                </div>
+                <div class="p-2 mt-5">
+                    <img src="assets/img/Group 530.png" alt="">
+                    <h3 style="font-size: 20px;font-weight: 500;line-height: 25px;padding: 25px 0;margin: 0;">Neurology
+                    </h3>
+                    <p class="text-secondary pe-5 mb-0" style="font-weight: 400;font-size: 16px;line-height: 20px;">
+                        Neurology is a medical specialty focused on the diagnosis and treatment of disorders that affect
+                        the nervous system,...</p>
+                    <button
+                        style="font-weight: 400;border: none;background-color: transparent;color: #396CF0;padding-top: 25px;">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- department-end -->
+    <!-- team-start -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center mt-5 pt-5">Our Best Doctors Team</h2>
+                <div class="row row-cols-12 row-cols-md-2 justify-content-center row-cols-lg-3">
+                    <div class="p-2">
+                        <div class="card p-4 rounded-5">
+                            <img src="assets/img/1000007032_x4_fast 1.png" class="card-img-top" alt="...">
+                            <div class="card-body p-0">
+                                <h2 class="card-title mb-3">Calvin Carlo</h2>
+                                <h3 class="mb-3" style="color: #8492A6;">Eye Care</h3>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <p class="card-text text-secondary mt-3">
+                                    <i class="fa-solid fa-location-dot me-2"></i>
+                                    63, PG Shustoke, UK
+                                </p>
+                                <p class="card-text text-secondary">
+                                    <i class="fa-solid fa-clock me-2"></i>
+                                    Mon :- 2:00PM - 6:00PM
+                                </p>
+                                <p class="card-text text-secondary">
+                                    <i class="fa-solid fa-dollar-sign me-3"></i>
+                                    $ 75 USD / Visit
+                                </p>
+                                <img src="assets/img/group-500.jpg" class="me-2" alt="">
+                                <img src="assets/img/group-501.jpg" class="me-2" alt="">
+                                <img src="assets/img/group-502.jpg" class="me-2" alt="">
+                                <img src="assets/img/group-503.jpg" class="me-2" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="card p-4 rounded-5">
+                            <img src="assets/img/1000007022_x4_fast (1) 1.png" class="card-img-top" alt="...">
+                            <div class="card-body p-0">
+                                <h2 class="card-title mb-3">Alia Reddy</h2>
+                                <h3 class="mb-3" style="color: #8492A6;">Psychotherapist</h3>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <p class="card-text text-secondary mt-3">
+                                    <i class="fa-solid fa-location-dot me-2"></i>
+                                    63, PG Shustoke, UK
+                                </p>
+                                <p class="card-text text-secondary">
+                                    <i class="fa-solid fa-clock me-2"></i>
+                                    Mon :- 2:00PM - 6:00PM
+                                </p>
+                                <p class="card-text text-secondary">
+                                    <i class="fa-solid fa-dollar-sign me-3"></i>
+                                    $ 75 USD / Visit
+                                </p>
+                                <img src="assets/img/group-500.jpg" class="me-2" alt="">
+                                <img src="assets/img/group-501.jpg" class="me-2" alt="">
+                                <img src="assets/img/group-502.jpg" class="me-2" alt="">
+                                <img src="assets/img/group-503.jpg" class="me-2" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="card p-4 rounded-5">
+                            <img src="assets/img/1000007028_x4_fast 1.png" class="card-img-top" alt="...">
+                            <div class="card-body p-0">
+                                <h2 class="card-title mb-3">Tony Kovar</h2>
+                                <h3 class="mb-3" style="color: #8492A6;">Orthopedic</h3>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <i class="fa-solid fa-star text-warning fs-4"></i>
+                                <p class="card-text text-secondary mt-3">
+                                    <i class="fa-solid fa-location-dot me-2"></i>
+                                    63, PG Shustoke, UK
+                                </p>
+                                <p class="card-text text-secondary">
+                                    <i class="fa-solid fa-clock me-2"></i>
+                                    Mon :- 2:00PM - 6:00PM
+                                </p>
+                                <p class="card-text text-secondary">
+                                    <i class="fa-solid fa-dollar-sign me-3"></i>
+                                    $ 75 USD / Visit
+                                </p>
+                                <img src="assets/img/group-500.jpg" class="me-2" alt="">
+                                <img src="assets/img/group-501.jpg" class="me-2" alt="">
+                                <img src="assets/img/group-502.jpg" class="me-2" alt="">
+                                <img src="assets/img/group-503.jpg" class="me-2" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team-end -->
+    <!-- hospital-start -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <h1 class="my-5 py-5 text-center">Gallery of Our Hospital</h1>
+                <div class="col-12 col-lg-4 col-md-6 my-3">
+                    <img src="assets/img/h1-img-1 1.png" class="w-100 img-fluid" alt="">
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 my-3">
+                    <img src="assets/img/h1-img-2 1.png" class="w-100 img-fluid" alt="">
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 my-3">
+                    <img src="assets/img/h1-img-3 1.png" class="w-100 img-fluid" alt="">
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 my-3">
+                    <img src="assets/img/h1-img-4 1.png" class="w-100 img-fluid" alt="">
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 my-3">
+                    <img src="assets/img/h1-img-5 1.png" class="w-100 img-fluid" alt="">
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 my-3">
+                    <img src="assets/img/h1-img-6 1.png" class="w-100 img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background: #396CF0;">
+        <div class="container">
+            <div class="row text-center text-white my-3" style="padding: 75px 0px;">
+                <div class="col-12 col-lg-3 col-md-6">
+                    <h1 style="font-size: 80px;font-weight: 600;line-height: 97px;">22</h1>
+                    <h4 style="font-size: 30px;font-weight: 500;line-height: 36px;">Health Section</h4>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <h1 style="font-size: 80px;font-weight: 600;line-height: 97px;">146</h1>
+                    <h4 style="font-size: 30px;font-weight: 500;line-height: 36px;">Different Services</h4>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <h1 style="font-size: 80px;font-weight: 600;line-height: 97px;">400</h1>
+                    <h4 style="font-size: 30px;font-weight: 500;line-height: 36px;">Blood Donations</h4>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <h1 style="font-size: 80px;font-weight: 600;line-height: 97px;">1300</h1>
+                    <h4 style="font-size: 30px;font-weight: 500;line-height: 36px;">Satisfied Patients</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <img src="assets/img/1694082199587 1.png" class="w-100 pt-3 img-fluid mb-5" alt="">
+    </section>
+    <!-- hospital-end -->
+    <!-- footer-start -->
+    <footer style="background: #202942;">
+        <div class="container">
+            <div class="row row-cols-12 row-cols-lg-4 row-cols-md-2 text-white pt-5">
+                <div class="p-2">
+                    <a href="#">
+                        <img src="assets/img/Group 233.png" class="mb-4" alt="">
+                    </a>
+                    <p style="color: #ADB5BD;line-height: 18px;font-weight: 400;padding-right: 10px;">Great doctor if
+                        you need your family
+                        member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
+                </div>
+                <div class="p-2">
+                    <h2 class="mb-3 pb-4" style="font-size: 20px;font-weight: 600;line-height: 24px;">Company</h2>
+                    <ul class="ps-0">
+                        <li class="mb-3">
+                            <a href="#">About Us</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Services</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Team</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Project</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Log In</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="p-2">
+                    <h2 class="mb-3 pb-4" style="font-size: 20px;font-weight: 600;line-height: 24px;">Departments</h2>
+                    <ul class="ps-0">
+                        <li class="mb-3">
+                            <a href="#">Eye Care</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Psychotherapy</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Dental Care</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Orthopedic</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Cardiology</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Gynecology</a>
+                        </li>
+                        <li class="mb-3">
+                            <a href="#">Neurology</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="p-2">
+                    <h2 class="mb-3 pb-4" style="font-size: 20px;font-weight: 600;line-height: 24px;">Departments</h2>
+                    <ul class="ps-0">
+                        <li class="mb-3">
+                            <i class="fa-regular fa-envelope me-2" style="color: #ADB5BD;"></i>
+                            <a href="#">lifecare@gmail.com</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-phone me-2" style="color: #ADB5BD;"></i>
+                            <a href="#">+152 534-468-854</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-phone me-2" style="color: #ADB5BD;"></i>
+                            <a href="#">+152 534-468-854</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-location-dot me-2" style="color: #ADB5BD;"></i>
+                            <a href="#">View on Google map</a>
+                        </li>
+                    </ul>
+                    <div class="icon mt-3">
+                        <i class="fa-brands fa-facebook-f me-4" style="color: #ADB5BD;"></i>
+                        <i class="fa-brands fa-instagram me-4" style="color: #ADB5BD;"></i>
+                        <i class="fa-brands fa-twitter me-4" style="color: #ADB5BD;"></i>
+                        <i class="fa-brands fa-linkedin-in me-4" style="color: #ADB5BD;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="footer-sub">
+                    <ul class="d-flex justify-content-end pt-3" style="border-top:1px solid grey ;">
+                        <li class="mx-4">
+                            <a href="#">Terms</a>
+                        </li>
+                        <li class="mx-4">
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li class="mx-4">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="mx-4">
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-end -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
